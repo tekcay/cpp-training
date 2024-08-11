@@ -16,7 +16,7 @@ class Animal {
         return name;
     }
 
-    void print() {
+    virtual void print() {
         std::cout << "Animal name : " << "\n" << getName() << "\n";
     }
 
