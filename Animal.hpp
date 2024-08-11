@@ -14,7 +14,7 @@ class Animal {
     Animal();
     Animal(std::string name);
     std::string getName();
-    void print();
+    virtual void print();
 
 };
 

@@ -13,7 +13,7 @@ class Chat : Animal {
     public :
     Chat(std::string name, std::string couleur);
     std::string getCouleur();
-    void print();
+    void print() override;
     
 };
         
