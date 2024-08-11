@@ -2,7 +2,6 @@
 #define CHAT_HPP
 
 #include <string>
-#include <iostream>
 #include "Animal.hpp"
 
 class Chat : Animal {
