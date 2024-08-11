@@ -2,8 +2,6 @@
 #define ANIMAL_HPP
 
 #include <string>
-#include <iostream>
-#include "Animal.hpp"
 
 class Animal {
 
