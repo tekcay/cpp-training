@@ -2,8 +2,7 @@
 #include "Chat.hpp"
 #include "Animal.hpp"
 
-Chat::Chat(std::string name, std::string couleur) {
-    Chat::name = name;
+Chat::Chat(std::string name, std::string couleur) : Animal(name) {
     Chat::couleur =  couleur;
 }
 
@@ -12,5 +11,5 @@ std::string Chat::getCouleur() {
 }
 
 void Chat::print() {
-    std::cout << Chat::getCouleur() << "\n" << Chat::getName() << "\n" ;
+    std::cout << Chat::getCouleur() << "\n" << Animal::getName() << "\n" ;
 }

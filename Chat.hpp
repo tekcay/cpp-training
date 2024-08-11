@@ -8,7 +8,7 @@
 class Chat : Animal {
 
     private :
-    std::string name, couleur;
+    std::string couleur;
 
     public :
     Chat(std::string name, std::string couleur);
