@@ -5,23 +5,17 @@
 #include <iostream>
 #include "Animal.hpp"
 
-class Chat : public Animal {
+class Chat : Animal {
 
-    private:
+    private :
     std::string couleur;
 
-
-    public:
-    Chat(std::string name, std::string couleur) : Animal(name), couleur(couleur) {}
-
-    std::string getCouleur() {
-        return couleur;
-    }
-
-    void print() override {
-        std::cout << getCouleur() << "\n" << getName() << "\n" ;
-    }
-
+    public :
+    Chat(std::string name, std::string couleur);
+    std::string getCouleur();
+    void print() override;
+    
 };
+        
 
 #endif
