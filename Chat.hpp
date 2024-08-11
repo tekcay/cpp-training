@@ -18,7 +18,7 @@ class Chat : public Animal {
         return couleur;
     }
 
-    void print() {
+    void print() override {
         std::cout << getCouleur() << "\n" << getName() << "\n" ;
     }
 
