@@ -2,10 +2,12 @@
 #include <string>
 #include "Animal.hpp"
 
-Animal::Animal(){}
-
 Animal::Animal(std::string name) {
     Animal::name = name;
+}
+
+Animal::Animal() {
+    Animal::name = "";
 }
 
 std::string Animal::getName() {
