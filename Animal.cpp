@@ -6,10 +6,6 @@ Animal::Animal(std::string name) {
     Animal::name = name;
 }
 
-Animal::Animal() {
-    Animal::name = "";
-}
-
 std::string Animal::getName() {
     return Animal::name;
 }

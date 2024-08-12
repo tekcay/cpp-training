@@ -10,6 +10,7 @@ class Chat : Animal {
     std::string couleur;
 
     public :
+    Chat() = delete;
     Chat(std::string name, std::string couleur);
     std::string getCouleur();
     void print() override;

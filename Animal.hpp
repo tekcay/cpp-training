@@ -9,7 +9,7 @@ class Animal {
     std::string name;
     
     public :
-    Animal();
+    Animal() = delete;
     Animal(std::string name);
     std::string getName();
     virtual void print();
